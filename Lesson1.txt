@@ -1,0 +1,15 @@
+master@master-VirtualBox:~$ sudo su - postgres
+postgres@master-VirtualBox:~$ psql --version
+psql (PostgreSQL) 14.8 (Ubuntu 14.8-0ubuntu0.22.04.1)
+postgres@master-VirtualBox:~$ psql
+psql (14.8 (Ubuntu 14.8-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# help
+You are using psql, the command-line interface to PostgreSQL.
+Type:  \copyright for distribution terms
+       \h for help with SQL commands
+       \? for help with psql commands
+       \g or terminate with semicolon to execute query
+       \q to quit
+postgres=# 
