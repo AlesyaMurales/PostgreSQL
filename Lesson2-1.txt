@@ -1,0 +1,11 @@
+CREATE TABLE subscriptions (
+id SERIAL PRIMARY KEY,
+type_id INT NOT NULL,
+signed_on_id INT NOT NULL,
+created_at TIMESTAMP
+);
+
+CREATE TABLE subscrition_type(
+id SERIAL PRIMARY KEY,
+name VARCHAR(25) NOT NULL UNIQUE
+);
